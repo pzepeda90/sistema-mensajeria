@@ -1,0 +1,118 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box
+}
+
+body {
+    display: flex;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 350px;
+    min-height: 100vh;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: row;
+    border: 1px #BEC1BB solid;
+    width: 350px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.principal {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: -40px;
+}
+
+.estado {
+    font-size: 10px;
+    color: #BEC1BB;
+    position: relative;
+    top: 3px;
+    left: -40px;
+}
+
+
+.nombre {
+    padding: 20px;
+}
+
+.fa-bars {
+    padding: 10px;
+}
+
+.btn-newchat {
+    background-color: white ;
+    display: flex;
+    flex-direction: column;
+    border: 1px #BEC1BB solid;
+    width: 350px;
+    height: 150px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-personal {
+    background-color: #A491D2;
+    border: none;
+    width: 200px;
+    height: 50px;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+
+.rg-contacto{
+    display: flex;
+    flex-direction: row;
+    border: 1px #BEC1BB solid;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.nick {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    position: relative;
+    left: -45px;
+    top: 8px
+
+}
+
+.contacto {
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    top: 11px;
+}
+
+
+.main {
+    background-color: #E8EBE4;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
