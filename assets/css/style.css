@@ -15,6 +15,9 @@ body {
     background-color: white;
     width: 350px;
     min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 7git 00;
+    font-style: normal;
 }
 
 .usuario {
@@ -82,29 +85,30 @@ body {
     width: 350px;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px 30px;
-}
-
-.nick {
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
     justify-content: left;
-    align-items: left;
-    position: relative;
-    left: -45px;
-    top: 8px
-
+    padding: 10px 30px;
 }
 
 .contacto {
     font-size: 20px;
     text-align: left;
     position: relative;
-    top: 11px;
+    top: 10px;
 }
 
+.nick {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
 
 .main {
     background-color: #E8EBE4;
@@ -115,4 +119,5 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: "Open Sans", sans-serif;
 }
