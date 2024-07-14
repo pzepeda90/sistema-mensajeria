@@ -16,7 +16,7 @@ body {
     width: 350px;
     min-height: 100vh;
     font-family: "Roboto", sans-serif;
-    font-weight: 7git 00;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -35,16 +35,16 @@ body {
 .principal {
     font-size: 20px;
     position: relative;
-    top: 10px;
-    left: -40px;
+    top: 12px;
+    left: -35px;
 }
 
 .estado {
-    font-size: 10px;
+    font-size: 12px;
     color: #BEC1BB;
     position: relative;
-    top: 3px;
-    left: -40px;
+    top: 5px;
+    left: -35px;
 }
 
 
@@ -103,7 +103,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     padding-right: 30px;
-    padding-left: 10px;
+    padding-left: 20px;
     padding-top: 5px;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -120,4 +120,8 @@ body {
     align-items: center;
     text-align: center;
     font-family: "Open Sans", sans-serif;
+}
+
+.msj-main{
+    padding-top: 30px;
 }
