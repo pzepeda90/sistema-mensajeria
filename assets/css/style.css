@@ -77,6 +77,13 @@ body {
     padding: 5px;
 }
 
+.btn-personal:hover {
+    background-color: #CDC3E6;
+}
+
+.btn-personal:focus {
+    background-color: #BEC1BB;
+}
 
 .rg-contacto{
     display: flex;
